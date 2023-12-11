@@ -7,3 +7,7 @@ Preprint: https://psyarxiv.com/zskh3
 Experiment 1: https://gershmanlab.com/experiments/yang/plasticity/exp1.html 
 
 Experiment 2: https://gershmanlab.com/experiments/yang/plasticity/exp2.html 
+
+Experiment 3: https://gershmanlab.com/experiments/yang/plasticity/exp3.html 
+
+Experiment 4: https://gershmanlab.com/experiments/yang/plasticity/exp4.html 
