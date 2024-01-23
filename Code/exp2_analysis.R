@@ -178,7 +178,7 @@ p1 <- bar_plot(data_sim, 1)
 p2 <- bar_plot(data_sim, 2)
 p3 <- bar_plot(data_sim, 3)
 
-pdf('./../figures/raw/fig5a.pdf', onefile = T, width = 12, height = 7)
+pdf('fig5a.pdf', onefile = T, width = 12, height = 7)
 p1 | p2 | p3
 dev.off()
 
@@ -221,7 +221,7 @@ p1 <- model_evidence %>%
   labs(x = NULL, y = 'Model evidence') +
   theme(legend.position = 'none')
 
-pdf('./../figures/raw/fig3b.pdf', onefile = T, width = 5, height = 3)
+pdf('fig3b.pdf', onefile = T, width = 5, height = 3)
 p1
 dev.off()
 
@@ -258,6 +258,6 @@ p1 <- individual(dat_endpoint, 1) + labs(x = 'Weaker agent\'s strength', y = 'St
 p2 <- individual(dat_endpoint, 2) + labs(x = 'Weaker agent\'s strength', y = NULL)
 p3 <- individual(dat_endpoint, 3) + labs(x = 'Weaker agent\'s strength', y = NULL)
 
-pdf('./../figures/raw/fig5b.pdf', onefile = T, width = 10, height = 4)
+pdf('fig5b.pdf', onefile = T, width = 10, height = 4)
 p1 | p2 | p3
 dev.off()
