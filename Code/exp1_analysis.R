@@ -129,7 +129,7 @@ p2 <- plot_2d(data_sim, 2) + labs(x = NULL, y = NULL)
 p3 <- plot_2d(data_sim, 3) + labs(x = 'Weaker agent\'s strength', y = 'Stronger agent\'s strength') + theme(legend.position = 'none')
 p4 <- plot_2d(data_sim, 4) + labs(x = 'Weaker agent\'s strength', y = NULL) + theme(legend.position = 'none')
 
-pdf('./../figures/raw/fig2a.pdf', onefile = T, width = 10, height = 8)
+pdf('fig2a.pdf', onefile = T, width = 10, height = 8)
 (p1 | p2) / (p3 | p4)
 dev.off()
 
@@ -187,7 +187,7 @@ p1 <- model_evidence %>%
   labs(x = NULL, y = 'Model evidence') +
   theme(legend.position = 'none')
 
-pdf('./../figures/raw/fig3a.pdf', onefile = T, width = 5, height = 3)
+pdf('fig3a.pdf', onefile = T, width = 5, height = 3)
 p1
 dev.off()
 
@@ -210,6 +210,6 @@ p2 <- individual(dat_endpoint, 2) + labs(x = NULL, y = NULL)
 p3 <- individual(dat_endpoint, 3) + labs(x = 'Weaker agent\'s strength', y = 'Stronger agent\'s strength')
 p4 <- individual(dat_endpoint, 4) + labs(x = 'Weaker agent\'s strength', y = NULL)
 
-pdf('./../figures/raw/fig2b.pdf', onefile = T, width = 10, height = 8)
+pdf('fig2b.pdf', onefile = T, width = 10, height = 8)
 (p1 | p2) / (p3 | p4)
 dev.off()
