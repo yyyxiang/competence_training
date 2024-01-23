@@ -134,7 +134,7 @@ p6 <- plot_2d(data_sim, 7) + labs(x = NULL, y = NULL) + theme(legend.position = 
 p7 <- plot_2d(data_sim, 4) + labs(x = 'Math level of agent worse at math', y = 'Math level of agent better at math') + theme(legend.position = 'none')
 p8 <- plot_2d(data_sim, 8) + labs(x = 'Math level of agent worse at math', y = NULL) + theme(legend.position = 'none')
 
-pdf('./../figures/raw/fig6.pdf', onefile = T, width = 10, height = 16)
+pdf('fig6.pdf', onefile = T, width = 10, height = 16)
 (p1 | p2) / (p3 | p4) / (p5 | p6) / (p7 | p8)
 dev.off()
 
@@ -192,7 +192,7 @@ p1 <- model_evidence %>%
   labs(x = NULL, y = 'Model evidence') +
   theme(legend.position = 'none')
 
-pdf('./../figures/raw/fig3c.pdf', onefile = T, width = 5, height = 3)
+pdf('fig3c.pdf', onefile = T, width = 5, height = 3)
 p1
 dev.off()
 
@@ -219,6 +219,6 @@ p6 <- individual(dat_endpoint, 7) + labs(x = NULL, y = NULL)
 p7 <- individual(dat_endpoint, 4) + labs(x = 'Math level of agent worse at math', y = 'Math level of agent better at math')
 p8 <- individual(dat_endpoint, 8) + labs(x = 'Math level of agent worse at math', y = NULL)
 
-pdf('./../figures/raw/fig7.pdf', onefile = T, width = 10, height = 16)
+pdf('fig7.pdf', onefile = T, width = 10, height = 16)
 (p1 | p2) / (p3 | p4) / (p5 | p6) / (p7 | p8)
 dev.off()
