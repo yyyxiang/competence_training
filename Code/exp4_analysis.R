@@ -179,7 +179,7 @@ p1 <- bar_plot(data_sim, 1)
 p2 <- bar_plot(data_sim, 2)
 p3 <- bar_plot(data_sim, 3)
 
-pdf('./../figures/raw/fig8a.pdf', onefile = T, width = 12, height = 7)
+pdf('fig8a.pdf', onefile = T, width = 12, height = 7)
 p1 | p2 | p3
 dev.off()
 
@@ -222,7 +222,7 @@ p1 <- model_evidence %>%
   labs(x = NULL, y = 'Model evidence') +
   theme(legend.position = 'none')
 
-pdf('./../figures/raw/fig3d.pdf', onefile = T, width = 5, height = 3)
+pdf('fig3d.pdf', onefile = T, width = 5, height = 3)
 p1
 dev.off()
 
@@ -259,6 +259,6 @@ p1 <- individual(dat_endpoint, 1) + labs(x = 'Math level of agent worse at math'
 p2 <- individual(dat_endpoint, 2) + labs(x = 'Math level of agent worse at math', y = NULL)
 p3 <- individual(dat_endpoint, 3) + labs(x = 'Math level of agent worse at math', y = NULL)
 
-pdf('./../figures/raw/fig8b.pdf', onefile = T, width = 10, height = 4)
+pdf('fig8b.pdf', onefile = T, width = 10, height = 4)
 p1 | p2 | p3
 dev.off()
