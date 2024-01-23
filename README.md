@@ -12,4 +12,4 @@ Experiment 3: https://gershmanlab.com/experiments/yang/plasticity/exp3.html
 
 Experiment 4: https://gershmanlab.com/experiments/yang/plasticity/exp4.html 
 
-We used the `bms()` function (bms.m inside the Code folder) in the mfit package developed by Sam Gershman (2015): https://github.com/sjgershm/mfit
+We used the `bms()` function (**bms.m** inside the Code folder) in the mfit package developed by Sam Gershman (2015): https://github.com/sjgershm/mfit
