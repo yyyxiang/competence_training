@@ -1,8 +1,8 @@
 # competence_training
 
-Code and data for: Xiang, Y., Vélez, N., & Gershman, S.J. (submitted). Optimizing competence in the service of collaboration.
+Code and data for: Xiang, Y., Vélez, N., & Gershman, S.J. (2024). Optimizing competence in the service of collaboration. _Cognitive Psychology, 150_, 101653.
 
-Preprint: https://psyarxiv.com/zskh3
+https://www.sciencedirect.com/science/article/abs/pii/S0010028524000240
 
 Experiment 1: https://gershmanlab.com/experiments/yang/plasticity/exp1.html 
 
