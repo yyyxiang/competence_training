@@ -1,4 +1,4 @@
-# competence_training
+# Optimizing competence in the service of collaboration
 
 Code and data for: Xiang, Y., Vélez, N., & Gershman, S.J. (2024). Optimizing competence in the service of collaboration. _Cognitive Psychology, 150_, 101653.
 
